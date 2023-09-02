@@ -1,6 +1,8 @@
 # Hands On Project - 01
 
-Building our own blockchain using Substrate and Rust.
+## Introduction
+
+In this project, we will be building our own blockchain node using Substrate and Rust. We will also be building a frontend to interact with our blockchain.
 
 ## Prerequisites
 
