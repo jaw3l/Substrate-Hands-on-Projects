@@ -13,6 +13,23 @@ In this project, we will be building our own blockchain node using Substrate and
 
 ## Setup
 
+### Installing Rust
+
+To install Rust, we need to run the following command:
+
+```bash
+curl https://sh.rustup.rs -sSf | sh
+```
+
+Or we can use APT (Advanced Package Tool) to install Rust.
+
+```bash
+sudo apt install cargo -y
+```
+
+[!IMPORTANT]
+It is recommended to install Rust using `rustup` in the official documentation.
+
 ### Substrate Node Template
 
 First, we need to clone the Substrate Node Template.
