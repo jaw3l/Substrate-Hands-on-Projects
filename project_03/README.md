@@ -4,7 +4,7 @@
 
 In this project, we be controlling which nodes can join our network. Only authorized nodes will be able to join our network.
 
-![INFO]
+![NOTE]
 The changes made to the files can be found in the my fork of the `substrate-node-template` repository. You can reach the repository [here](https://github.com/jaw3l/substrate-node-template/tree/learn_substrate).
 
 ## Prerequisites
