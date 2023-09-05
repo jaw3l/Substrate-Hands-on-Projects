@@ -136,7 +136,7 @@ We will head over to the [flipper contract](./flipper/) and deploy it to our loc
 cargo contract instantiate --constructor new --args "false" --suri //Alice --salt $(date +%s)
 ```
 
-![INFO]
+![IMPORTANT]
 If you get an error like `Failed to find any contract artifacts in target directory.`, try running `cargo contract build --release` and then try deploying the smart contract again.
 
 We should see the following output:
