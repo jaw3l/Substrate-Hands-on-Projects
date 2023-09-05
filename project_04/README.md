@@ -4,6 +4,9 @@
 
 In this chapter, we will build an  entire permissioned network of nodes. This won't be complex as real-world networks, but it will be enough to understand the basics of how a permissioned network works.
 
+![INFO]
+The changes made to the files can be found in the my fork of the `substrate-node-template` repository. You can reach the repository [here](https://github.com/jaw3l/substrate-node-template/tree/learn_substrate).
+
 ## Setup
 
 ### Node Authorization

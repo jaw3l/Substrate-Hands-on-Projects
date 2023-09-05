@@ -65,21 +65,8 @@ Result should look like this:
 2023-09-02 12:34:57 🔨 Initializing Genesis block/state (state: 0xcb7f…23a8, header-hash: 0xf856…d957)
 2023-09-02 12:34:57 👴 Loading GRANDPA authority set from genesis on what appears to be first startup.
 2023-09-02 12:34:57 Using default protocol ID "sup" because none is configured in the chain specs
-
 2023-09-02 12:34:57 🏷  Local node identity is: 12D3KooWSbi12Mxi7ABz1DSWCHdPCzonMmgJYDwZCkbNefpzNjXX
-
-2023-09-02 12:34:57 💻 Operating system: linux
-2023-09-02 12:34:57 💻 CPU architecture: x86_64
-
-2023-09-02 12:34:57 💻 Target environment: gnu
-2023-09-02 12:34:57 💻 CPU: AMD Ryzen 7 5700 with Radeon Graphics
-2023-09-02 12:34:57 💻 CPU cores: 8
-2023-09-02 12:34:57 💻 Memory: 15.58 GiB
-2023-09-02 12:34:57 💻 Kernel: 5.15.90.1
-2023-09-02 12:34:57 💻 Linux distribution: Ubuntu 22.04.2 LTS
-2023-09-02 12:34:57 💻 Virtual machine: yes
-2023-09-02 12:34:57 📦 Highest known block at #0
-
+...
 2023-09-02 12:34:57 〽️ Prometheus exporter started at 127.0.0.1:9615
 2023-09-02 12:34:57 Running JSON-RPC server: addr=127.0.0.1:9944, allowed origins=["*"]
 ```
@@ -118,18 +105,8 @@ You can now view substrate-front-end-template in the browser.
 Note that the development build is not optimized.
 To create a production build, use yarn build.
 
-assets by path static/media/ 1.66 MiB
-  assets by path static/media/*.svg 982 KiB 3 assets
-  assets by path static/media/*.eot 230 KiB 3 assets
-  assets by path static/media/*.ttf 230 KiB 3 assets
-  assets by path static/media/*.woff 126 KiB 3 assets
-  assets by path static/media/*.woff2 104 KiB
-    asset static/media/brand-icons.278156e41e0ad908cf7f.woff2 53.2 KiB [emitted] [immutable] [from: node_modules/semantic-ui-css/themes/default/assets/fonts/brand-icons.woff2] (auxiliary name: main)
-    + 2 assets
-  asset static/media/flags.99f63ae7a743f21ab308.png 27.5 KiB [emitted] [immutable] [from: node_modules/semantic-ui-css/themes/default/assets/images/flags.png] (auxiliary name: main)
-asset static/js/bundle.js 8 MiB [emitted] (name: main) 1 related asset
-asset index.html 2.27 KiB [emitted]
-asset asset-manifest.json 2.1 KiB [emitted]
+...
+
 cached modules 6.64 MiB (javascript) 1.66 MiB (asset) 28.7 KiB (runtime) [cached] 2341 modules
 webpack 5.76.1 compiled successfully in 2600 ms
 ```
