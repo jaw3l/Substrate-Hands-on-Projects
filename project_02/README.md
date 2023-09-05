@@ -20,7 +20,7 @@ But if we want to purge the chain state manually and didn't use the `--dev` flag
 ./target/release/node-template purge-chain
 ```
 
-![INFO]
+![NOTE]
 If you run error while purging the chain state, you can always use `rm` command to delete the chain state manually. For example you can purge chain state of Alice node with `rm -rf /tmp/alice/chains` command.
 
 This command will prompt us to confirm the purge. We can confirm it by typing `Y` and pressing `Enter`.
